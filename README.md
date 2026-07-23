@@ -1,16 +1,161 @@
-# React + Vite
+# 🗳️ ECI Voter Awareness Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application built using **React**, **Vite**, **Tailwind CSS**, and **Axios** to spread awareness about voting and encourage citizens to participate in democratic elections.
 
-Currently, two official plugins are available:
+This project was developed as part of my **Full Stack Development coursework** and demonstrates the use of React Hooks, API integration, reusable components, and responsive UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🗳️ Clean and modern Election Commission themed interface
+- 📢 Interactive voter awareness section
+- 📝 Voter Registration Interest Form
+- 🔄 React Hooks (`useState` & `useEffect`)
+- 🌐 Axios API Integration
+- ⚡ Fast development with Vite
+- 📱 Fully Responsive Design
+- 🎨 Styled using Tailwind CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend Framework |
+| Vite | Build Tool |
+| Tailwind CSS | Styling |
+| Axios | API Requests |
+| JavaScript (ES6+) | Application Logic |
+| HTML5 | Structure |
+| CSS3 | Additional Styling |
+
+---
+
+# 📂 Project Structure
+
+```
+eci-voter-awareness-portal
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   └── AwarenessCard.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/raghavanand-prog/eci-voter-awareness-portal.git
+```
+
+---
+
+## 2️⃣ Navigate to the Project Folder
+
+```bash
+cd eci-voter-awareness-portal
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📚 React Concepts Demonstrated
+
+This project showcases:
+
+- Functional Components
+- Component-Based Architecture
+- React Hooks
+  - useState
+  - useEffect
+- API Integration using Axios
+- Event Handling
+- Conditional Rendering
+- Form Handling
+- Responsive Design
+- State Management
+
+---
+
+# 🎯 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Building React applications from scratch
+- Creating reusable components
+- Managing component state
+- Fetching data from APIs
+- Working with forms
+- Organizing React projects
+- Using Tailwind CSS for responsive layouts
+- Version control with Git & GitHub
+
+
+# 🔮 Future Improvements
+
+- ✅ User Authentication
+- ✅ Backend Integration
+- ✅ Database Connectivity
+- ✅ Online Voter Registration
+- ✅ Live Election Updates
+- ✅ Interactive Election Statistics
+- ✅ Dark Mode
+- ✅ Accessibility Improvements
+
+
+
+# 👨‍💻 Author
+
+**Raghav Anand**
+
+🎓 MCA Student | CHRIST (Deemed to be University)
+
+💻 Aspiring AI & Cybersecurity Engineer
+
+🔗 GitHub: https://github.com/raghavanand-prog
+
+-
+
