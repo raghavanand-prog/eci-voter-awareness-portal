@@ -25,10 +25,24 @@ useEffect(() => {
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  console.log(name);
-  console.log(age);
-  console.log(email);
+  const voter = {
+    name,
+    age,
+    email,
+  };
+
+  localStorage.setItem(
+    "voterData",
+    JSON.stringify(voter)
+  );
+console.log(localStorage.getItem("voterData"));
+  
+
   alert(`Thank you ${name}! Your registration interest has been submitted.`);
+
+  setName("");
+  setAge("");
+  setEmail("");
 };
 
   return (
