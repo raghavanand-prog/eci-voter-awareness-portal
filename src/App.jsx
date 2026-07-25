@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Countdown from "./components/Countdown";
 import Footer from "./components/footer";
 import AwarenessCard from "./components/AwarenessCard";
-import quotes from "../data/quotes.json";
+
 
 function App() {
   return (
