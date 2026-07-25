@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Countdown from "./components/Countdown";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import Countdown from "./components/countdown";
 import Footer from "./components/footer";
-import AwarenessCard from "./components/AwarenessCard";
+import AwarenessCard from "./components/awarenessCard";
 
 
 function App() {
