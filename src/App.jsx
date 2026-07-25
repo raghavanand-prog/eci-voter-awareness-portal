@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Countdown from "./components/Countdown";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 import AwarenessCard from "./components/AwarenessCard";
 
 
