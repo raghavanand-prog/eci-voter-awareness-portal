@@ -1,12 +1,17 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Countdown from "./components/Countdown";
+import Footer from "./components/Footer";
 import AwarenessCard from "./components/AwarenessCard";
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Countdown />
+      <Footer />
 
       <div className="flex justify-center gap-6 my-10 flex-wrap">
         <AwarenessCard

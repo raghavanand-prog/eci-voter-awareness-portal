@@ -10,17 +10,24 @@ const [age, setAge] = useState("");
 const [email, setEmail] = useState("");
 useEffect(() => {
   setLoading(true);
-  axios
-    .get("https://jsonplaceholder.typicode.com/posts/1")
+
+  axios.get("/quotes.json")
     .then((response) => {
-      console.log(response.data);
-      setQuote(response.data.title);
+
+      const quotes = response.data;
+
+      const random =
+        quotes[Math.floor(Math.random() * quotes.length)];
+
+      setQuote(random.quote);
+
       setLoading(false);
     })
     .catch((error) => {
       console.error(error);
       setLoading(false);
     });
+
 }, []);
 const handleSubmit = (e) => {
   e.preventDefault();
@@ -78,7 +85,7 @@ console.log(localStorage.getItem("voterData"));
 
       <button
         onClick={() => setButtonText("Registration Started ✅")}
-        className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        className=" bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
       >
         {buttonText}
       </button>
