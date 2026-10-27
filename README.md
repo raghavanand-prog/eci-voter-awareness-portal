@@ -1,4 +1,20 @@
-# 🗳️ ECI Voter Awareness Portal
+# ECI Voter Awareness Portal
+
+**A website that encourages people to vote, explains why voting matters and has a form to register interest in voter registration.**
+
+Why it exists: a Full Stack Development course project, practising React hooks, API calls and responsive design. It is not an official Election Commission of India site.
+
+## How to run
+
+1. `npm install`
+2. `npm run dev`
+3. Open the address Vite prints (usually http://localhost:5173).
+
+---
+
+## Technical details
+
+Everything below is the full write-up for engineers and reviewers.
 
 A modern, responsive web application built using **React**, **Vite**, **Tailwind CSS**, and **Axios** to spread awareness about voting and encourage citizens to participate in democratic elections.
 
